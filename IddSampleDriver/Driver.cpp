@@ -743,7 +743,7 @@ NTSTATUS IddSampleMonitorQueryModes(IDDCX_MONITOR MonitorObject, const IDARG_IN_
     CreateTargetMode(TargetModes[31], 1152, 864, 60);
     CreateTargetMode(TargetModes[32], 1024, 768, 60);
     CreateTargetMode(TargetModes[33], 800, 600, 60);
-    CreateTargetMode(TargetModes[334], 640, 480, 60);
+    CreateTargetMode(TargetModes[34], 640, 480, 60);
 
     pOutArgs->TargetModeBufferOutputCount = (UINT)TargetModes.size();
 
